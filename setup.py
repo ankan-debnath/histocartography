@@ -11,7 +11,7 @@ from distutils.command.build import build as _build
 
 VCS_REQUIREMENTS = []
 PYPI_REQUIREMENTS = [
-    "torch==1.3.1",
+    "torch>=1.3.1",
     "tqdm==4.35.0",
     "pandas==0.24.2",
     "matplotlib==3.1.1",
