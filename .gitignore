@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
+
 # Distribution / packaging
 .Python
 build/
@@ -115,5 +116,4 @@ tmp/
 *.png
 *.hdf5
 .DS_Store
-checkpoints
 .travis.yml

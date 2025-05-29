@@ -29,8 +29,8 @@ from ..utils.image import extract_patches_from_image
 from ..utils import download_box_link
 
 DATASET_TO_BOX_URL = {
-    "pannuke": "https://ibm.box.com/shared/static/hrt04i3dcv1ph1veoz8x6g8a72u0uw58.pt",
-    "monusac": "https://ibm.box.com/shared/static/u563aoydow9w2kpgw0l8esuklegdtdij.pt",
+    "pannuke": "https://huggingface.co/datasets/ankandebnath/histocartography-checkpoints/resolve/main/pannuke.pt",
+    "monusac": "https://huggingface.co/datasets/ankandebnath/histocartography-checkpoints/resolve/main/monusac.pt",
 }
 
 CHECKPOINT_PATH = "../../checkpoints"
