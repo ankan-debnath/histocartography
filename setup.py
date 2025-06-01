@@ -24,6 +24,7 @@ PYPI_REQUIREMENTS = [
     "scikit-image==0.17.2",
     "dgl==0.4.3.post2",
     "PyYAML>=5.1.2",
+    "numpy==1.23.5"
 ]
 regex = re.compile(r"(git|svn|hg|bzr)\+")
 if os.path.exists("requirements.txt"):
