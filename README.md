@@ -24,22 +24,19 @@ If you encounter any issue or have questions regarding the library, feel free to
 
 # Installation 
 
-## PyPI installer (recommended)
-
-`pip install histocartography`
-
 ## Development setup 
 
-- Clone the repo:
-
-```
-git clone https://github.com/histocartography/histocartography.git && cd histocartography
-```
 
 - Create a conda environment:
 
 ```
-conda env create -f environment.yml
+conda create -n histocartography python=3.8.20
+```
+- Install the package:
+
+```
+pip install git+https://github.com/ankan-debnath/histocartography.git
+
 ```
 **NOTE**: To use GPUs, install GPU compatible [Pytorch](https://pytorch.org/get-started/locally/), [Torchvision](https://pytorch.org/get-started/locally/) and [DGL](https://www.dgl.ai/pages/start.html) packages according to your OS, package manager, and CUDA.
 
